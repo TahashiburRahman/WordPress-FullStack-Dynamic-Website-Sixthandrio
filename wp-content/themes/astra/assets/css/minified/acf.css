@@ -1,0 +1,53 @@
+.bods {
+  border: block !important;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-width: 1px 0 0 1px;
+  margin: 0 0 1.5em;
+  width: 100%;
+  border-top: 2px solid #003F5D !important;
+  border-left: 2px solid #003F5D !important;
+  padding: 20px 40px;
+  
+}
+.mobile{
+  display: none !important;
+  border: block !important;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-width: 1px 0 0 1px;
+  margin: 0 0 1.5em;
+  width: 100%;
+  border-top: 2px solid #003F5D !important;
+  border-left: 2px solid #003F5D !important;
+  padding: 20px 40px;
+}
+.WaySay{
+  padding: 0 9%;
+  width: 100% !important;
+}
+.red-lebel{
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  color: #003F5D;
+  font-size: 24px;
+}
+.magic-moment{
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  width: 220px;
+  color: #003F5D;
+  font-size: 34px;
+}
+
+@media screen and (max-width:1023px) {
+  .bar{
+    padding: 0 2px;
+  }
+  .bods{
+    display: none !important;
+  }
+  .mobile{
+    display: block !important;
+  }
+}
